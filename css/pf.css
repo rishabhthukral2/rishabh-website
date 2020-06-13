@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Piedra&display=swap');
+body {
+    background-image: url("back.jpg") ;
+}
+
+
+.btns{
+    color: greenyellow !important;
+}
+
+.info{
+    font-size: 60px;
+    font-family: Piedra;
+    color: azure;
+    text-align: center;
+    padding: 30px;
+}
+
+.info1{
+    font-size: 30px;
+    font-family: Pacifico;
+    color: azure;
+    text-align: center;
+    
+}
+
+.myimg{
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 150px;
+   
+}
+.web-dev{
+    font-family: serif;
+    font-size: 20px;
+    color: lightcoral;
+}
+
+
+#about{
+    color: aliceblue;
+}
+.about-head{
+    text-align: center;
+    font-family: Piedra;
+    color: aliceblue;
+}
+
+
+.about-sec{
+    background-image: url("abt.jpg");
+    margin: 22px;
+    padding: 50px;
+}
+.education{
+    font-family: cursive;
+    color: tomato;
+}
+.edu-info{
+    text-decoration: underline;
+}
+
+.more-edu{
+    font-style: italic;
+    font-family: initial;
+}
+
+.home-img{
+    background-image: url("bg2.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 29pc;
+    width: 28pc;
+    box-shadow: -2px 1px 5px 15px rgba(0,0,0,0.6);
+
+}
+
+#work{
+    color: aliceblue;
+}
+
+article{
+    width: 310px;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.6);
+    transition: box-shadow 500ms;
+    background-color: black;
+    
+  }
+  article:hover{
+    box-shadow: 5px 5px 40px rgba(0,0,0,1.7);
+  }
+
+.work-img{
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+.h3-ht{
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+
+.form-top{
+    margin-top: 30px;
+  }
+  .panel{
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+    border-radius: 6px;
+      border: 0;
+  }
+  @-moz-document url-prefix() {
+      .form-control{
+        height: auto;
+      }
+  }
+  .panel-primary{
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  .panel-primary>.panel-heading {
+      color: #fff;
+      font-size: 20px;
+      background-color: #2c3e50;
+      border-color: #2c3e50;
+  }
+  .btn-warning{
+    background-color: transparent;
+    border-color: #bdc3c7;
+  }
+  
+
+
+.form-details{
+    color: black;
+    font-weight: 700;
+}  
+
+.form-center{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mob-icon{
+    color: white;
+}
+
+.icons{
+    text-align: center;
+    padding: 30px;
+}
+
+.linked{
+    color: #0077b5;
+}
+
+.linked:hover{
+    color: blue;
+}
+
+.git{
+    color: black;
+}
+.git:hover{
+    color: blue;
+}
+
+
+.insta{
+    color: white;
+}
+.insta:hover{
+    color: blue;
+}
+
+.facebk{
+    color: #1877F2;
+}
+.facebk:hover{
+    color: blue;
+}
+
+.twit{
+    color: #1da1f2;
+}
+.twit:hover{
+    color: blue;
+}
+
+.social-head{
+    text-align: center;
+    font-family: Pacifico;
+    color: greenyellow;
+    text-decoration: underline black;
+}
+
+.rt-footer{
+    text-align: center;
+    background-color: black;
+    color: chartreuse;
+
+}
