@@ -10,7 +10,7 @@ var day = currentDate.getDate() - birthDate.getDate();
 // If the date has already happened this year
 if ( month < 0 || month == 0 && day < 0 )
 {
-age--;
+age;
 }
 document.getElementById("myAge").innerHTML= "My name is Rishabh Thukral and I am " + age +
                                              " years old. I live in New Delhi.";
